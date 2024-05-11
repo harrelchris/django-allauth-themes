@@ -46,8 +46,8 @@ Alternatively, you can customize Bootstrap as you like and use that:
 The layouts work with all Bootswatch themes, but you may want to customize them. As an example, these minor tweaks to the layouts may help the content stand out more. However, it doesn't work well with all Bootswatch themes (like quartz and vapor), so it's not included in the default layouts:
 
 ```html
-  <div class="d-flex h-100 bg-body-secondary">
-    <div class="m-auto p-4 border rounded-3 shadow-lg bg-white">
+  <div class="d-flex flex-grow-1 flex-shrink-0 py-5 bg-body-secondary">
+    <div class="m-auto p-4 border shadow-lg bg-white">
       {% block content %}{% endblock %}
     </div>
   </div>
