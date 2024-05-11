@@ -54,3 +54,11 @@ The layouts work with all Bootswatch themes, but you may want to customize them.
 ```
 
 To apply these or other customizations, override the HTML files in your templates directory: `templates/allauth/layouts/entrance.html`. See it in action within the example project.
+
+## Screenshots
+
+<img src="https://i.imgur.com/Yt5rrdm.png" height="300">
+<img src="https://i.imgur.com/SniCRZY.png" height="300">
+<img src="https://i.imgur.com/oX2rgBP.png" height="300">
+<img src="https://i.imgur.com/A6tYREN.png" height="300">
+<img src="https://i.imgur.com/95EYmDK.png" height="300">
