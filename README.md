@@ -43,7 +43,7 @@ Alternatively, you can customize Bootstrap as you like and use that:
 
 ### Layout Customization
 
-These minor tweaks to the layouts may help the content stand out more. However, it doesn't work well with all Bootswatch themes (like quartz and vapor), so it's not included in the default layouts:
+The layouts work with all Bootswatch themes, but you may want to customize them. As an example, these minor tweaks to the layouts may help the content stand out more. However, it doesn't work well with all Bootswatch themes (like quartz and vapor), so it's not included in the default layouts:
 
 ```html
   <div class="d-flex h-100 bg-body-secondary">
@@ -52,3 +52,5 @@ These minor tweaks to the layouts may help the content stand out more. However, 
     </div>
   </div>
 ```
+
+To apply these or other customizations, override the HTML files in your templates directory: `templates/allauth/layouts/entrance.html`. See it in action within the example project.
