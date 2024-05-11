@@ -33,6 +33,10 @@ You can achieve drastic changes with little effort using Bootswatch themes. Simp
 
 You can change `cerulean` to any of the available themes available on [Bootswatch.com](https://bootswatch.com/).
 
+<div style="text-align: center">
+    <img src="https://i.imgur.com/dno436U.png" alt="screenshots" width="700">
+</div>
+
 ### Custom CSS
 
 Alternatively, you can customize Bootstrap as you like and use that:
