@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 69.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-allauth-themes"
+version = "0.1.1"
+description = "Themes for Django-Allauth"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+  {name = "harrelchris", email = "harrelchris+pypi@gmail.com" }
+]
+
+dependencies = [
+  "django-allauth"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/harrelchris/django-allauth-themes"
+"Issues" = "https://github.com/harrelchris/django-allauth-themes/issues"

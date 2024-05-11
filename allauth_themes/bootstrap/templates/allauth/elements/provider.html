@@ -1,0 +1,18 @@
+{% load allauth %}
+<a class="list-group-item"
+   title="{{ attrs.name }}"
+   href="{{ attrs.href }}">
+  {% if attrs.name.lower in "amazon apple discord dropbox facebook github gitlab google instagram line linkedin paypal pinterest reddit slack snapchat steam stripe telegram twitch" %}
+    <i class="bi bi-{{ attrs.name.lower }}"></i>
+  {% elif attr.name == "Firefox Accounts" %}
+    <i class="bi bi-browser-firefox"></i>
+  {% elif attr.name == "Stack Exchange" %}
+    <i class="bi bi-stack-overflow"></i>
+  {% elif attr.name == "Twitter" %}
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-twitter-x"></i>
+  {% elif attr.name in "Live Microsoft" %}
+    <i class="bi bi-microsoft"></i>
+  {% endif %}
+  {{ attrs.name }}
+</a>

@@ -1,0 +1,10 @@
+{% extends "allauth/layouts/base.html" %}
+{% load i18n %}
+
+{% block body %}
+  <div class="d-flex flex-grow-1 flex-shrink-0 my-5">
+    <div class="m-auto py-5">
+      {% block content %}{% endblock %}
+    </div>
+  </div>
+{% endblock %}
